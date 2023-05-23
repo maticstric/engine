@@ -1,17 +1,17 @@
 {
     "configurations": [
-      {
-        "name": "Mac",
-        "includePath": [
-            "${workspaceFolder}/engine/include",
-            "${VULKAN_SDK}/include"
-        ],
-        "defines": [],
-        "compilerPath": "/usr/bin/clang",
-        "cStandard": "c17",
-        "cppStandard": "c++17",
-        "intelliSenseMode": "clang-x64"
-      }
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/engine/include/",
+                "${VULKAN_SDK}/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
     ],
     "version": 4
-  }
+}

@@ -9,7 +9,7 @@ CFLAGS = -Wall -std=c99 -o ../bin/testbed.out
 
 #LDFLAGS= -I./include -I/opt/homebrew/include -I/Users/matic/VulkanSDK/1.3.243.0/macOS/include -L/opt/homebrew/lib -L/Users/matic/VulkanSDK/1.3.243.0/macOS/lib -lglfw.3.3 -lvulkan.1 -lvulkan.1.3.243
 
-LDFLAGS = -I../engine/include -L$(LIB_PATH)
+LDFLAGS = -I../engine/include/ -L$(LIB_PATH)
 LDLIBS = -lengine
 
 .PHONY: all
