@@ -9,7 +9,7 @@
 
 #include <GLFW/glfw3.h>
 
-typedef struct {
+typedef struct internal_state {
     GLFWwindow* glfw_window;
 } internal_state;
 

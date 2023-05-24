@@ -2,6 +2,7 @@
     "files.associations": {
         "logger.h": "c",
         "stdbool.h": "c",
-        "platform.h": "c"
+        "platform.h": "c",
+        "game_types.h": "c"
     }
 }
